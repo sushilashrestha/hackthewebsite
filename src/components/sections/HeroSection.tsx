@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-// import { Button } from "@/components/ui/button";
-// import { Rocket, Code } from "lucide-react";
+ import { Button } from "@/components/ui/button";
+import { Rocket, Code } from "lucide-react";
 
 const CountdownItem = ({ value, unit }: { value: number; unit: string }) => (
   <motion.div
@@ -104,12 +104,20 @@ export default function HeroSection({
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.8 }}
         >
-          <div
-            className="apply-button"
-            data-hackathon-slug="hack-the-circle"
-            data-button-theme="light"
-            style={{ height: "44px", width: "312px" }}
-          ></div>
+        <div className="flex gap-6 justify-center flex-wrap">
+        <a href="https://tally.so/r/nrdZLo" target="_blank">
+          <Button size="lg" className="text-xl py-8 rounded-lg hover:scale-105 hover-ring-2  hover:ring-secondary hover:shadow-lg hover:shadow-cyan-400/20">
+            Register Now
+            <Rocket className="ml-2 h-6 w-6" />
+          </Button>
+        </a>
+        <a href="https://hackthecircle.super.site" target="_blank">
+          <Button size="lg" variant="outline" className="text-xl py-8 rounded-lg hover:scale-105 hover-ring-2  hover:ring-secondary hover:shadow-lg hover:shadow-cyan-400/20 border-secondary">
+            Learn More
+            <Code className="ml-2 h-6 w-6" />
+          </Button>
+        </a>
+        </div>
         </motion.div>
       </div>
     </section>
