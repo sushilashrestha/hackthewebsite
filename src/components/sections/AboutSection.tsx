@@ -37,7 +37,7 @@ export default function AboutSection() {
         {sections.map((section, index) => (
           <motion.div
             key={index}
-            className="bg-white bg-opacity-20 backdrop-blur-lg rounded-lg p-6 flex flex-col items-center text-center transition-all duration-300 hover:ring-2 hover:ring-secondary hover:shadow-lg hover:shadow-cyan-400/20"
+            className="bg-muted bg-opacity-20 backdrop-blur-lg rounded-lg p-6 flex flex-col items-center text-center transition-all duration-300 hover:ring-2 hover:ring-secondary hover:shadow-lg hover:shadow-cyan-400/20"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.1 }}

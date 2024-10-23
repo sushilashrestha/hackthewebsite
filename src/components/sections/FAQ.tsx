@@ -42,7 +42,7 @@ export default function FAQ({ faqs }: { faqs: FAQType[] }) {
           className="flex-grow"
         />
         <Select value={selectedCategory} onValueChange={setSelectedCategory}>
-          <SelectTrigger className="w-full sm:w-[180px]">
+          <SelectTrigger className="w-full sm:w-[180px] border-secondary ">
             <SelectValue placeholder="Select category" />
           </SelectTrigger>
           <SelectContent className="bg-background text-primary">
