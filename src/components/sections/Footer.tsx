@@ -55,9 +55,6 @@ const Footer = ({
           <p>&copy; {currentYear} {title}. All rights reserved.</p>
         </div>
       </div>
-      <div className="absolute px-0 transform -translate-x-1/2 z-20 flex flex-col justify-center items-center">
-        <ScrollUpButton />
-      </div>
     </footer>
   );
 };

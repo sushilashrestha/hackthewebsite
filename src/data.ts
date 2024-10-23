@@ -36,24 +36,6 @@ export const themes: Theme[] = [
 ];
 export const events: Event[] = [
   {
-    date: "Oct 18",
-    title: "Postman Workshop",
-    description:
-      "Learn about API testing tools and how to test and debug your API endpoints effectively. This session will focus on Postman, a widely used platform for API development.",
-  },
-  {
-    date: "Oct 21",
-    title: "Git and GitHub Workshop",
-    description:
-      "Introduction to version control with Git and collaboration using GitHub. Participants will learn how to manage their project repositories, track changes, and work together seamlessly on a shared codebase.",
-  },
-  {
-    date: "Oct 28",
-    title: "Business Model Canvas Workshop",
-    description:
-      "Developing a solid business strategy for your project. This workshop will guide participants in mapping out a business model using the Business Model Canvas framework, focusing on value proposition, customer segments, and revenue streams.",
-  },
-  {
     date: "Nov 4",
     title: "Design Thinking Workshop",
     description:
@@ -83,7 +65,7 @@ export const faqs: FAQ[] = [
   {
     question: "Who can participate in Khwopa Hackathon 2024?",
     answer:
-      "Undergraduate students from Khwopa College of Engineering or Khwopa Engineering College are eligible to participate, regardless of their department or year of study.",
+      "Students from Khwopa Circle are eligible to participate, regardless of their department or year of study.",
     category: "Event Details",
   },
   {
@@ -113,10 +95,9 @@ export const faqs: FAQ[] = [
     category: "Event Logistics",
   },
   {
-    question:
-      "What themes will the participants focus on during the hackathon?",
+    question: "What is the judging criteria for projects?",
     answer:
-      "The hackathon focuses on two themes: (1) Transforming Campus Life, where participants create solutions to improve communication, learning tools, or resource management; and (2) Empowering Municipal Growth, which addresses public service or infrastructure challenges in the municipality.",
+      "Projects will be judged based on creativity, technical complexity, relevance to the theme, and potential impact on the community.",
     category: "Hackathon",
   },
   {
@@ -136,5 +117,5 @@ export const faqs: FAQ[] = [
 export const links: Links = {
   facebook: "https://www.facebook.com/hackthecircle",
   instagram: "https://www.instagram.com/hackthecircle",
-  discord: "https://discord.gg/JtvtdS9V2X",
+discord: "https://discord.gg/TCWhDg7Rby",
 };

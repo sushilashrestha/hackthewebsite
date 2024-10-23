@@ -6,6 +6,7 @@ import HeroSection from "@/components/sections/HeroSection";
 import Timeline from "@/components/sections/Timeline";
 import Footer from "@/components/sections/Footer";
 import FAQ from "@/components/sections/FAQ";
+import ScrollUpButton from "@/components/ui/scrollup";
 
 import {
   title,
@@ -38,6 +39,7 @@ function App() {
         <Timeline events={events} />
         <FAQ faqs={faqs} />
         <Footer title={title} caption={caption} links={links} />
+        <ScrollUpButton />
       </Layout>
     </>
   );
