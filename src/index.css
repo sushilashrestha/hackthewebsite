@@ -10,7 +10,9 @@
 }
 
 :root {
-  --background:#173A5B; /* 228 55% 95% */
-  --primary: #5efff4; /* 228 5% 7% */
+  --background:#dddfe9; /* 228 55% 95% */
+  --primary: #313d40;
+  --secondary: #476c76; /* 0 0 96% */
+  --accent: #edb070;
   --radius: 0.5rem;
 }

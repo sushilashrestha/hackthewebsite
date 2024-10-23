@@ -1,6 +1,7 @@
 import Layout from "@/components/Layout";
 
 import HackathonThemes from "@/components/sections/HackathonThemes";
+import AboutSection from "./components/sections/AboutSection";
 import HeroSection from "@/components/sections/HeroSection";
 import Timeline from "@/components/sections/Timeline";
 import Footer from "@/components/sections/Footer";
@@ -17,7 +18,7 @@ import {
   themes,
   links,
 } from "@/data";
-import AboutSection from "./components/sections/AboutSection";
+
 
 function App() {
   return (
