@@ -18,12 +18,14 @@ import {
   themes,
   links,
 } from "@/data";
+import BackgroundAnimation from "./components/ParticleAnimation/BackgroundAnimation";
 
 
 function App() {
   return (
     <>
       <Layout>
+      <BackgroundAnimation/>
         <HeroSection
           title={title}
           caption={caption}
