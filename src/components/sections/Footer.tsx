@@ -1,4 +1,3 @@
-import ScrollUpButton from '../ui/scrollup';
 import {
   Facebook,
   Instagram,
