@@ -3,7 +3,7 @@ import { ReactNode } from "react";
 
 export default function Layout({ children }: { children: ReactNode }) {
   return (
-    <div className=" bg-background text-white">
+    <div className=" bg-background text-primary">
       <main className="relative">
         <div
           className="absolute inset-0 w-full h-screen bg-cover bg-center"

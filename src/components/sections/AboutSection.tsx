@@ -37,12 +37,12 @@ export default function AboutSection() {
         {sections.map((section, index) => (
           <motion.div
             key={index}
-            className="bg-white bg-opacity-20 backdrop-blur-lg rounded-lg p-6 flex flex-col items-center text-center transition-all duration-300 hover:ring-2 hover:ring-cyan-400 hover:shadow-lg hover:shadow-cyan-400/20"
+            className="bg-white bg-opacity-20 backdrop-blur-lg rounded-lg p-6 flex flex-col items-center text-center transition-all duration-300 hover:ring-2 hover:ring-secondary hover:shadow-lg hover:shadow-cyan-400/20"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
           >
-            <section.icon className="w-12 h-12 mb-4 text-cyan-400" />
+            <section.icon className="w-12 h-12 mb-4 text-secondary" />
             <h2 className="text-xl font-semibold mb-2">{section.title}</h2>
             <p className="text-sm leading-relaxed">{section.content}</p>
           </motion.div>

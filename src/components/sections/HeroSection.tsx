@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 const CountdownItem = ({ value, unit }: { value: number; unit: string }) => (
   <motion.div
-    className="bg-[#5efff4] bg-opacity-20 rounded-lg p-2 sm:p-4 backdrop-blur-sm flex-1 min-w-fit"
+    className="bg-secondary bg-opacity-20 rounded-lg p-2 sm:p-4 backdrop-blur-sm flex-1 min-w-fit"
     whileHover={{ scale: 1.05 }}
     transition={{ type: "spring", stiffness: 300 }}
   >
@@ -68,15 +68,15 @@ export default function HeroSection({
     <section className="relative flex flex-col items-center justify-center min-h-screen text-center overflow-hidden">
       <div className="relative z-10 px-4 py-16 sm:px-6 lg:px-8 w-full max-w-7xl mx-auto">
         <motion.h2
-          className="text-4xl sm:text-6xl text-white font-extrabold mb-4 drop-shadow-lg"
+          className="text-4xl sm:text-6xl text-primary font-extrabold mb-4 drop-shadow-lg"
           initial={{ y: -50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          <span className="text-[#5efff4]"> {firstPart}</span> :{secondPart}
+          <span className="text-secondary"> {firstPart}</span> :{secondPart}
         </motion.h2>
         <motion.p
-          className="text-xl sm:text-2xl mb-8 text-primary-foreground"
+          className="text-xl sm:text-2xl mb-8 text-primary"
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.4 }}
@@ -89,7 +89,7 @@ export default function HeroSection({
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.6 }}
         >
-          <h3 className="text-2xl sm:text-4xl font-bold py-4 mb-4 text-white">
+          <h3 className="text-2xl sm:text-4xl font-bold py-4 mb-4 text-secondary">
             Countdown to Hack Day
           </h3>
           <div className="flex justify-between gap-2 sm:gap-4">
