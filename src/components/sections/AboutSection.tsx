@@ -20,7 +20,7 @@ export default function AboutSection() {
     {
       title: "Who Can Participate?",
       content:
-        "Open to all university students in Nepal, from beginners to experienced coders. Form teams of 3-5 members and bring your ideas to life!",
+        "Open to students from Khwopa Engineering College, Khwopa College of Engineering, and Khwopa Secondary School.Form teams of 3-5 members and bring your ideas to life!",
       icon: Users,
     },
     {

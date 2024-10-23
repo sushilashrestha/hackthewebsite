@@ -23,7 +23,7 @@ export default function HackathonThemes({ themes }: { themes: Theme[] }) {
       <div className="flex justify-center mt-8">
         <a href="https://hackthecircle.super.site/smart-khwopa" target="_blank">
          
-          <Button size="sm" className="text-md py-8 rounded-lg hover:scale-105 hover-ring-2  hover:ring-secondary hover:shadow-lg hover:shadow-cyan-400/20">
+          <Button size="sm" className="text-md py-8 px-6 rounded-lg hover:scale-105 hover-ring-2  hover:ring-secondary hover:shadow-lg hover:shadow-cyan-400/20">
             Learn More Here
           </Button>
          

@@ -20,6 +20,5 @@ export interface FAQ  {
 export interface Links {
   facebook: string;
   instagram: string;
-  linkedin: string;
   discord: string;
 }

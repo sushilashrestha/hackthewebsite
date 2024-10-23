@@ -112,7 +112,7 @@ export default function HeroSection({
           </Button>
         </a>
         <a href={learnMoreLink} target="_blank">
-          <Button size="lg" variant="outline" className="text-xl py-8 rounded-lg hover:scale-105 hover-ring-2  hover:ring-secondary hover:shadow-lg hover:shadow-cyan-400/20 border-secondary">
+          <Button size="lg" variant="outline" className="text-xl py-8 rounded-lg hover:scale-105 hover-ring-2  hover:ring-secondary hover:shadow-lg hover:shadow-cyan-400/20 border-secondary border-2">
             Learn More
             <Code className="ml-2 h-6 w-6" />
           </Button>

@@ -134,8 +134,7 @@ export const faqs: FAQ[] = [
 ];
 
 export const links: Links = {
-  facebook: "https://www.facebook.com/collabyte",
-  instagram: "https://www.instagram.com/official.collabyte",
-  linkedin: "https://www.linkedin.com/company/collabyte",
+  facebook: "https://www.facebook.com/hackthecircle",
+  instagram: "https://www.instagram.com/hackthecircle",
   discord: "https://discord.gg/JtvtdS9V2X",
 };
