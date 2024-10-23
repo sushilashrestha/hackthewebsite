@@ -31,7 +31,7 @@ const Footer = ({
   };
 
   return (
-    <footer className=" text-primary-foreground">
+    <footer className=" text-primary">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div>
@@ -111,7 +111,7 @@ const Footer = ({
           </div>
         </div>
 
-        <div className="mt-8 pt-8 border-t border-primary-foreground/10 text-center">
+        <div className="mt-8 pt-8 border-t border-secondary text-center font-bold">
           <p>&copy; {currentYear} {title}. All rights reserved.</p>
         </div>
       </div>
