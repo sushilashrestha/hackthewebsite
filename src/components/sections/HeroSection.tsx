@@ -84,7 +84,7 @@ export default function HeroSection({
           {caption}
         </motion.p>
         <motion.div
-          className="backdrop-blur-sm bg-white bg-opacity-20 rounded-lg p-4 sm:p-6 mb-8 inline-block w-full max-w-3xl hover:ring-2 hover:ring-secondary hover:shadow-lg hover:shadow-cyan-400/20"
+          className="backdrop-blur-sm bg-muted bg-opacity-20 rounded-lg p-4 sm:p-6 mb-8 inline-block w-full max-w-3xl hover:ring-2 hover:ring-secondary hover:shadow-lg hover:shadow-cyan-400/20"
           initial={{ scale: 0.9, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.6 }}
