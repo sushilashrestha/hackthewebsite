@@ -1,0 +1,16 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hackathon-background {
+  background-image: url("https://khwopa.edu.np/themes/khce_v2/images/KhEC_KhCE.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+:root {
+  --background:#173A5B; /* 228 55% 95% */
+  --primary: #5efff4; /* 228 5% 7% */
+  --radius: 0.5rem;
+}
