@@ -33,8 +33,8 @@ export default function HeroSection({
   title,
   caption,
   targetDate,
-  // registrationLink,
-  // learnMoreLink,
+  registrationLink,
+  learnMoreLink,
 }: HeroSectionProps) {
   const [firstPart, secondPart] = title.split(":");
   const [timeLeft, setTimeLeft] = useState({
@@ -105,13 +105,13 @@ export default function HeroSection({
           transition={{ duration: 0.8, delay: 0.8 }}
         >
         <div className="flex gap-6 justify-center flex-wrap">
-        <a href="https://tally.so/r/nrdZLo" target="_blank">
+        <a href={registrationLink} target="_blank">
           <Button size="lg" className="text-xl py-8 rounded-lg hover:scale-105 hover-ring-2  hover:ring-secondary hover:shadow-lg hover:shadow-cyan-400/20">
             Register Now
             <Rocket className="ml-2 h-6 w-6" />
           </Button>
         </a>
-        <a href="https://hackthecircle.super.site" target="_blank">
+        <a href={learnMoreLink} target="_blank">
           <Button size="lg" variant="outline" className="text-xl py-8 rounded-lg hover:scale-105 hover-ring-2  hover:ring-secondary hover:shadow-lg hover:shadow-cyan-400/20 border-secondary">
             Learn More
             <Code className="ml-2 h-6 w-6" />

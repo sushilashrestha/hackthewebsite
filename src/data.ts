@@ -4,24 +4,36 @@ export const title = "Hack the Circle: Khwopa 2024";
 export const caption =
   "Join us for 32 hours of innovation, collaboration, and code!";
 export const targetDate = "2024-11-22T00:00:00";
-export const registrationLink = "https://example.com/register";
-export const learnMoreLink = "https://example.com/learn-more";
+export const registrationLink = "https://tally.so/r/nrdZLo";
+export const learnMoreLink = "https://hackthecircle.super.site";
+
 
 export const themes: Theme[] = [
   {
-    title: "Transforming College Life",
+    title: "Tourism Enhancement",
     description:
-      "Participants will develop innovative technological solutions to improve the quality of life for students, teachers, and administrators at our college. Projects may address challenges in areas such as campus communication, resource management, learning tools, administrative efficiency, or student services. This theme encourages participants to leverage their technical skills to create practical, impactful solutions that directly benefit our college ecosystem, fostering a more connected, efficient, and supportive academic environment for all.",
-    icon: "🏫",
+      "Create tech solutions to enhance the tourism experience in Bhaktapur, from guiding tourists to exploring the cultural landmarks digitally.",
+    icon: "✈️", // FontAwesome icon for map/tourism
   },
   {
-    title: "Empowering Municipal Growth",
+    title: "Disaster Risk Management",
     description:
-      "This hackathon invites passionate innovators, developers, and problem-solvers to come together and create technological solutions that drive positive change across the municipality. Participants will focus on addressing key challenges in areas such as public services, infrastructure, sustainability, communication, and citizen engagement. By leveraging modern technology and creativity, teams will develop practical solutions that enhance the quality of life for all residents, foster efficient governance, and build a more connected, resilient, and forward-thinking community.",
-    icon: "🏘️",
+      "Develop tools and systems to mitigate and manage disasters, helping to protect Bhaktapur's residents and its cultural heritage.",
+    icon: "⚠️", // FontAwesome icon for disaster
+  },
+  {
+    title: "Cultural Preservation",
+    description:
+      "Innovate solutions to preserve and promote Bhaktapur's centuries-old culture, traditions, and monuments through technology.",
+    icon: "🛕", // FontAwesome icon for cultural landmarks
+  },
+  {
+    title: "Local Business Support",
+    description:
+      "Create platforms or tools that empower local businesses, promote their products, and help them thrive in a modern digital economy.",
+    icon:"🏪", // FontAwesome icon for local business
   },
 ];
-
 export const events: Event[] = [
   {
     date: "Oct 18",
