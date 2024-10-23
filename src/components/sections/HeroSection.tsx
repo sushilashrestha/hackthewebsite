@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
- import { Button } from "@/components/ui/button";
+import { Button } from "@/components/ui/button";
 import { Rocket, Code } from "lucide-react";
+import ScrollDownButton from '../ui/scrolldown';
 
 const CountdownItem = ({ value, unit }: { value: number; unit: string }) => (
   <motion.div
@@ -119,6 +120,9 @@ export default function HeroSection({
         </a>
         </div>
         </motion.div>
+      </div>
+      <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 z-20 flex flex-col justify-center items-center">
+      <ScrollDownButton />
       </div>
     </section>
   );
