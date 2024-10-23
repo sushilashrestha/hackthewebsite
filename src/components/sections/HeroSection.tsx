@@ -1,9 +1,7 @@
-"use client";
-
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
-import { Rocket, Code } from "lucide-react";
+// import { Button } from "@/components/ui/button";
+// import { Rocket, Code } from "lucide-react";
 
 const CountdownItem = ({ value, unit }: { value: number; unit: string }) => (
   <motion.div
@@ -35,8 +33,8 @@ export default function HeroSection({
   title,
   caption,
   targetDate,
-  registrationLink,
-  learnMoreLink,
+  // registrationLink,
+  // learnMoreLink,
 }: HeroSectionProps) {
   const [firstPart, secondPart] = title.split(":");
   const [timeLeft, setTimeLeft] = useState({
