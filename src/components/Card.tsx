@@ -12,7 +12,7 @@ const Card: React.FC<CardProps> = ({ icon, title, subtitle, description, align =
   const alignmentClass = align === "left" ? "text-left" : align === "right" ? "text-right" : "text-center";
 
   return (
-    <div className="bg-white bg-opacity-20 rounded-lg p-6 transform hover:scale-105 transition-transform duration-300">
+    <div className="bg-background bg-opacity-20 rounded-lg p-6 transform hover:scale-105 transition-transform duration-300">
       {icon}
       <h4 className={`text-xl font-bold mb-2 ${alignmentClass}`}>{title}</h4>
       {subtitle && <h5 className={`text-lg mb-2 ${alignmentClass}`}>{subtitle}</h5>}

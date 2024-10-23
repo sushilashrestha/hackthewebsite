@@ -18,8 +18,10 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: "#5efff4",
-		background: '#173A5B'
+        primary: "var(--primary)",
+        secondary:"var(--secondary)",
+        background:"var(--background)",
+        accent:"var(--accent)",
       },
       borderRadius: {
         lg: "var(--radius)",

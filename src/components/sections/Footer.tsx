@@ -92,7 +92,7 @@ const Footer = ({
                   disabled={loading}
                 />
                 <Button
-                  className="bg-[#5efff4] hover:bg-[#5efff4] text-black transition-all duration-300 ease-in-out transform hover:scale-105"
+                  className="bg-secondary hover:bg-secondary text-white transition-all duration-300 ease-in-out transform hover:scale-105"
                   type="submit"
                   disabled={loading}
                 >

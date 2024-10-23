@@ -45,7 +45,7 @@ export default function FAQ({ faqs }: { faqs: FAQType[] }) {
           <SelectTrigger className="w-full sm:w-[180px]">
             <SelectValue placeholder="Select category" />
           </SelectTrigger>
-          <SelectContent className="bg-background text-white">
+          <SelectContent className="bg-background text-primary">
             {categories.map((category) => (
               <SelectItem
                 key={category}
