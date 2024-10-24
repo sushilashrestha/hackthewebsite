@@ -124,5 +124,5 @@ export const info: Info = {
   name: "Abi Shrestha",
   role: "Event Lead",
   email: "hackthecircle@gmail.com", 
-  phone: "+977 9863476900"
+  phone: "(+977) 9863476900"
  };
