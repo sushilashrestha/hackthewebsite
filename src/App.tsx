@@ -7,27 +7,26 @@ import Timeline from "@/components/sections/Timeline";
 import Footer from "@/components/sections/Footer";
 import FAQ from "@/components/sections/FAQ";
 import ScrollUpButton from "@/components/ui/scrollup";
-
-import {
-  title,
-  caption,
-  targetDate,
-  registrationLink,
-  learnMoreLink,
-  faqs,
-  events,
-  themes,
-  links,
-  info,
+ 
+import { 
+  title, 
+  caption, 
+  targetDate, 
+  registrationLink, 
+  learnMoreLink, 
+  faqs, 
+  events, 
+  themes, 
+  links, 
+  info 
 } from "@/data";
 import BackgroundAnimation from "./components/ParticleAnimation/BackgroundAnimation";
-
 
 function App() {
   return (
     <>
       <Layout>
-      <BackgroundAnimation/>
+        <BackgroundAnimation />
         <HeroSection
           title={title}
           caption={caption}
@@ -39,7 +38,8 @@ function App() {
         <HackathonThemes themes={themes} />
         <Timeline events={events} />
         <FAQ faqs={faqs} />
-        <Footer title={title} caption={caption} links={links} />
+        <Footer title={title} caption={caption} links={links} info={info} />
+        <ScrollUpButton /> 
       </Layout>
     </>
   );
