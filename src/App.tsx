@@ -17,6 +17,7 @@ import {
   events,
   themes,
   links,
+  info,
 } from "@/data";
 import BackgroundAnimation from "./components/ParticleAnimation/BackgroundAnimation";
 
@@ -37,7 +38,7 @@ function App() {
         <HackathonThemes themes={themes} />
         <Timeline events={events} />
         <FAQ faqs={faqs} />
-        <Footer title={title} caption={caption} links={links} />
+        <Footer title={title} caption={caption} links={links} info={info} />
       </Layout>
     </>
   );

@@ -1,4 +1,4 @@
-import { Theme, Event, FAQ, Links } from "@/types";
+import { Theme, Event, FAQ, Links, Info } from "@/types";
 
 export const title = "Hack the Circle: Khwopa 2024";
 export const caption =
@@ -138,3 +138,10 @@ export const links: Links = {
   instagram: "https://www.instagram.com/hackthecircle",
   discord: "https://discord.gg/JtvtdS9V2X",
 };
+
+export const info: Info = {
+  name: "Abi Shrestha",
+  role: "Event Lead",
+  email: "hackthecircle@gmail.com", 
+  phone: "+977 9863476900"
+ };

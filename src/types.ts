@@ -22,3 +22,10 @@ export interface Links {
   instagram: string;
   discord: string;
 }
+
+export interface Info {
+  name: string;
+  role: string;
+  email: string;
+  phone: string; 
+}
