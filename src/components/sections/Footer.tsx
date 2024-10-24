@@ -74,7 +74,7 @@ const Footer = ({
 
         </div>
         <div className="grid mt-8 pt-8 border-t border-secondary">
-          <p className="justify-self-center font-bold">
+          <p className="justify-self-center font-bold text-center">
             &copy; {currentYear} {title}. All rights reserved.
           </p>
         </div>
