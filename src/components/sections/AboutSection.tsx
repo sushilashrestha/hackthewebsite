@@ -8,7 +8,7 @@ export default function AboutSection() {
     {
       title: "What is Hack The Circle: Khwopa 2024?",
       content:
-        "Hack The Circle: Khwopa 2024 is Nepal's premier student-led hackathon, bringing together innovators, developers, and tech enthusiasts for a 48-hour coding marathon.",
+        "Hack The Circle: Khwopa 2024 is Bhaktapur's student-led hackathon, bringing together innovators, developers, and tech enthusiasts for a 48-hour coding marathon.",
       icon: Code,
     },
     {
@@ -20,7 +20,7 @@ export default function AboutSection() {
     {
       title: "Who Can Participate?",
       content:
-        "Open to students from Khwopa Engineering College, Khwopa College of Engineering, and Khwopa Secondary School.Form teams of 3-5 members and bring your ideas to life!",
+        "Open to students from  Khwopa Circle.Form teams of 3-5 members and bring your ideas to life!",
       icon: Users,
     },
     {

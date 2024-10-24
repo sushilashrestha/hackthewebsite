@@ -1,4 +1,3 @@
-import ScrollUpButton from '../ui/scrollup';
 import {
   Facebook,
   Instagram,
@@ -54,9 +53,6 @@ const Footer = ({
         <div className="mt-8 pt-8 border-t border-secondary text-center font-bold">
           <p>&copy; {currentYear} {title}. All rights reserved.</p>
         </div>
-      </div>
-      <div className="absolute px-0 transform -translate-x-1/2 z-20 flex flex-col justify-center items-center">
-        <ScrollUpButton />
       </div>
     </footer>
   );
