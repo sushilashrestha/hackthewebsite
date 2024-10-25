@@ -68,12 +68,6 @@ export const themes: Theme[] = [
 ];
 ```
 
-## Email Integration
-
-To integrate email functionality for subscriptions, you need to configure MailerLite API keys. Update the `.env` file with your MailerLite API key and group ID as shown in the [Configuration](#configuration) section.
-
-The email subscription logic is handled in the `useSubscribe` hook located in `src/hooks/useSubscribe.ts`. This hook validates the email domain and adds the subscriber to the MailerLite group.
-
 ## Running the Project
 
 To run the project locally, use the following command:
