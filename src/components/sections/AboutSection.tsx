@@ -8,7 +8,7 @@ export default function AboutSection() {
     {
       title: "What is Hack The Circle: Khwopa 2024?",
       content:
-        "Hack The Circle: Khwopa 2024 is Bhaktapur's student-led hackathon, bringing together innovators, developers, and tech enthusiasts for a 48-hour coding marathon.",
+        "Hack The Circle: Khwopa 2024 is Bhaktapur's student-led hackathon, bringing together innovators, developers, and tech enthusiasts for a 32-hour coding marathon.",
       icon: Code,
     },
     {

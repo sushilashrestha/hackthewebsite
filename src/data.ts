@@ -36,19 +36,19 @@ export const themes: Theme[] = [
 ];
 export const events: Event[] = [
   {
-    date: "Nov 4",
+    date: "Nov 13",
     title: "Design Thinking Workshop",
     description:
       "A deep dive into problem-solving techniques using the Design Thinking approach. Participants will learn how to empathize with users, define problems, ideate solutions, prototype, and test their ideas.",
   },
   {
-    date: "Nov 11",
+    date: "Nov 19",
     title: "Ideathon",
     description:
       "An idea presentation session where participants pitch their project ideas to mentors and peers. This session will help refine ideas and gather valuable feedback before the hackathon starts.",
   },
   {
-    date: "Nov 13",
+    date: "Nov 21",
     title: "Participant Orientation",
     description:
       "Final preparation session before the hackathon. Participants will get an overview of the event schedule, rules, and resources available, along with important instructions for the hackathon.",
@@ -57,13 +57,13 @@ export const events: Event[] = [
 
 export const faqs: FAQ[] = [
   {
-    question: "When and where is Khwopa Hackathon 2024 happening?",
+    question: "When is Hack The Circle: Khwopa 2024 happening?",
     answer:
-      "Khwopa Hackathon 2024 will take place on November 15 and 16, 2024, at Block F&G, 1st Floor, Khwopa College of Engineering.",
+      "Hack The Circle: Khwopa 2024 will take place on November 22 and 23, 2024.",
     category: "Event Details",
   },
   {
-    question: "Who can participate in Khwopa Hackathon 2024?",
+    question: "Who can participate in Hack The Circle: Khwopa 2024?",
     answer:
       "Students from Khwopa Circle are eligible to participate, regardless of their department or year of study.",
     category: "Event Details",
@@ -78,7 +78,7 @@ export const faqs: FAQ[] = [
     question:
       "What resources and technical infrastructure will be provided at the hackathon?",
     answer:
-      "Participants will have access to high-speed Wi-Fi, multi plugs for devices, projectors for presentations, and AV systems for smooth communication and demonstrations.",
+      "Participants will have access to high-speed Wi-Fi, multi plugs for devices, projectors for presentations, and others for smooth communication and demonstrations.",
     category: "Event Logistics",
   },
   {
@@ -103,7 +103,7 @@ export const faqs: FAQ[] = [
   {
     question: "What kind of projects are expected at the hackathon?",
     answer:
-      "Projects should address challenges related to campus life or municipal growth. All projects must be started from scratch during the hackathon, and participants can use any programming language, framework, or technology stack.",
+      "Projects should address challenges related to our theme. All projects must be started from scratch during the hackathon, and participants can use any programming language, framework, or technology stack.",
     category: "Hackathon",
   },
   {
