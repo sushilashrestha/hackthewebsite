@@ -20,7 +20,7 @@ export default function AboutSection() {
     {
       title: "Who Can Participate?",
       content:
-        "Open to students from  Khwopa Circle. Form teams of 3-5 members and bring your ideas to life!",
+        "Open to students from  Khwopa Circle. Form teams of 3-4 members and bring your ideas to life!",
       icon: Users,
     },
     {
