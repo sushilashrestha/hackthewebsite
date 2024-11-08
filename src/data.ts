@@ -57,7 +57,7 @@ export const events: Event[] = [
     date: "Dec 2",
     title: "Ideathon",
     description:
-      "An idea presentation session where participants pitch their project ideas to mentors and peers. This session will help refine ideas and gather valuable feedback before the hackathon starts.",
+      "An idea presentation session where participants pitch their project ideas to jury members. Top 10 teams will be selected to participate in the hackathon.",
   },
   {
     date: "Dec 4",
