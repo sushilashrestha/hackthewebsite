@@ -36,13 +36,13 @@ export const themes: Theme[] = [
 ];
 export const events: Event[] = [
   {
-    date: "Nov 18",
+    date: "Nov 20",
     title: "Design Thinking Workshop",
     description:
       "A deep dive into problem-solving techniques using the Design Thinking approach. Participants will learn how to empathize with users, define problems, ideate solutions, prototype, and test their ideas.",
   },
   {
-    date:"Nov 25",
+    date:"TBD",
     title:"Presentation Workshop",
     description:
       "Learn how to craft a compelling pitch for your project. This workshop will cover essential elements of a pitch, including problem identification, solution, market analysis, and impact.",
