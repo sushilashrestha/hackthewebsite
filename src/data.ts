@@ -42,8 +42,8 @@ export const events: Event[] = [
       "A deep dive into problem-solving techniques using the Design Thinking approach. Participants will learn how to empathize with users, define problems, ideate solutions, prototype, and test their ideas.",
   },
   {
-    date:"TBD",
-    title:"Presentation Workshop",
+    date:"Nov 25",
+    title:"Presentation Excellence Workshop",
     description:
       "Learn how to craft a compelling pitch for your project. This workshop will cover essential elements of a pitch, including problem identification, solution, market analysis, and impact.",
   },
