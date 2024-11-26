@@ -3,7 +3,7 @@ import { Theme, Event, FAQ, Links, Info } from "@/types";
 export const title = "Hack the Circle: Khwopa 2024";
 export const caption =
   "Join us for 32 hours of innovation, collaboration, and code!";
-export const targetDate = "2024-11-22T00:00:00";
+  export const targetDate = "2024-12-06T00:00:00";
 export const registrationLink = "https://tally.so/r/nrdZLo";
 export const learnMoreLink = "https://hackthecircle.super.site";
 
@@ -13,57 +13,76 @@ export const themes: Theme[] = [
     title: "Tourism Enhancement",
     description:
       "Create tech solutions to enhance the tourism experience in Bhaktapur, from guiding tourists to exploring the cultural landmarks digitally.",
-    icon: "✈️", // FontAwesome icon for map/tourism
+    icon: "✈️", 
   },
   {
     title: "Disaster Risk Management",
     description:
       "Develop tools and systems to mitigate and manage disasters, helping to protect Bhaktapur's residents and its cultural heritage.",
-    icon: "⚠️", // FontAwesome icon for disaster
+    icon: "⚠️", 
   },
   {
     title: "Cultural Preservation",
     description:
       "Innovate solutions to preserve and promote Bhaktapur's centuries-old culture, traditions, and monuments through technology.",
-    icon: "🛕", // FontAwesome icon for cultural landmarks
+    icon: "🛕",
   },
   {
     title: "Local Business Support",
     description:
       "Create platforms or tools that empower local businesses, promote their products, and help them thrive in a modern digital economy.",
-    icon:"🏪", // FontAwesome icon for local business
+    icon:"🏪", 
   },
 ];
 export const events: Event[] = [
   {
-    date: "Nov 4",
+    date: "Nov 20",
     title: "Design Thinking Workshop",
     description:
       "A deep dive into problem-solving techniques using the Design Thinking approach. Participants will learn how to empathize with users, define problems, ideate solutions, prototype, and test their ideas.",
   },
   {
-    date: "Nov 11",
+    date:"Nov 25",
+    title:"Presentation Excellence Workshop",
+    description:
+      "Learn how to craft a compelling pitch for your project. This workshop will cover essential elements of a pitch, including problem identification, solution, market analysis, and impact.",
+  },
+  // {
+  //   date: "Dec 2",
+  //   title: "Git & Github Workshop",
+  //   description:
+  //     "An introduction to version control using Git and Github. Participants will learn how to create repositories, manage branches, commit changes, and collaborate with others on projects.",
+  // },
+  {
+    date: "Dec 2",
     title: "Ideathon",
     description:
-      "An idea presentation session where participants pitch their project ideas to mentors and peers. This session will help refine ideas and gather valuable feedback before the hackathon starts.",
+    "An idea pitching session where participants present their project concepts to a jury of experts, competing for a spot in the main hackathon. Only the top 10 teams will advance, gaining the chance to bring their ideas to life in a dynamic, hands-on environment."
   },
   {
-    date: "Nov 13",
+    date: "Dec 4",
     title: "Participant Orientation",
     description:
       "Final preparation session before the hackathon. Participants will get an overview of the event schedule, rules, and resources available, along with important instructions for the hackathon.",
   },
+  {
+    date: "Dec 6-7",
+    title: "Hack The Circle: Khwopa 2024",
+    description:
+      "A 32-hour hackathon where participants will work in teams to develop innovative tech solutions to address challenges related to Bhaktapur's tourism, disaster risk management, cultural preservation, and local business support.",
+  },
+
 ];
 
 export const faqs: FAQ[] = [
   {
-    question: "When and where is Khwopa Hackathon 2024 happening?",
+    question: "When is Hack The Circle: Khwopa 2024 happening?",
     answer:
-      "Khwopa Hackathon 2024 will take place on November 15 and 16, 2024, at Block F&G, 1st Floor, Khwopa College of Engineering.",
+      "Hack The Circle: Khwopa 2024 will take place on December 6 and 7, 2024.",
     category: "Event Details",
   },
   {
-    question: "Who can participate in Khwopa Hackathon 2024?",
+    question: "Who can participate in Hack The Circle: Khwopa 2024?",
     answer:
       "Students from Khwopa Circle are eligible to participate, regardless of their department or year of study.",
     category: "Event Details",
@@ -71,14 +90,14 @@ export const faqs: FAQ[] = [
   {
     question: "What is the team composition requirement?",
     answer:
-      "Teams must consist of 3-5 elligible members.",
+      "Teams must consist of 3-4 elligible members.",
     category: "Event Details",
   },
   {
     question:
       "What resources and technical infrastructure will be provided at the hackathon?",
     answer:
-      "Participants will have access to high-speed Wi-Fi, multi plugs for devices, projectors for presentations, and AV systems for smooth communication and demonstrations.",
+      "Participants will have access to high-speed Wi-Fi, multi plugs for devices, projectors for presentations, and others for smooth communication and demonstrations.",
     category: "Event Logistics",
   },
   {
@@ -103,7 +122,7 @@ export const faqs: FAQ[] = [
   {
     question: "What kind of projects are expected at the hackathon?",
     answer:
-      "Projects should address challenges related to campus life or municipal growth. All projects must be started from scratch during the hackathon, and participants can use any programming language, framework, or technology stack.",
+      "Projects should address challenges related to our theme. All projects must be started from scratch during the hackathon, and participants can use any programming language, framework, or technology stack.",
     category: "Hackathon",
   },
   {

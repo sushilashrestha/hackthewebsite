@@ -14,15 +14,18 @@ import {
   targetDate, 
   registrationLink, 
   learnMoreLink, 
+  events,
   faqs, 
-  events, 
   themes, 
   links, 
   info 
 } from "@/data";
+
 import BackgroundAnimation from "./components/ParticleAnimation/BackgroundAnimation";
 
 function App() {
+
+  
   return (
     <>
       <Layout>

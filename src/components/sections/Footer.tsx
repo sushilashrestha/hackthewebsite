@@ -24,7 +24,7 @@ const Footer = ({
   return (
     <footer className="text-primary w-full">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid lg:grid-cols-2 gap-8">
+        <div className="flex flex-wrap justify-around gap-8">
           <div className="grid gap-4 justify-items-center lg:justify-items-start">
             <h2 className="text-2xl font-bold text-center">{title}</h2>
             <p className="font-bold text-center lg:text-left">{caption}</p>

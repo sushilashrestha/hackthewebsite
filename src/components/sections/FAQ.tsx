@@ -61,9 +61,9 @@ export default function FAQ({ faqs }: { faqs: FAQType[] }) {
 
       <Accordion type="single" collapsible className="w-full space-y-2">
         {filteredFaqs.map((faq, index) => (
-          <AccordionItem key={index} value={`item-${index}`}>
+          <AccordionItem  key={index} value={`item-${index}`}>
             <AccordionTrigger className="text-left">{faq.question}</AccordionTrigger>
-            <AccordionContent className="pl-4">{faq.answer}</AccordionContent>
+            <AccordionContent className="pl-4 ">{faq.answer}</AccordionContent>
           </AccordionItem>
         ))}
       </Accordion>
