@@ -54,13 +54,13 @@ export const events: Event[] = [
   //     "An introduction to version control using Git and Github. Participants will learn how to create repositories, manage branches, commit changes, and collaborate with others on projects.",
   // },
   {
-    date: "Dec 2",
+    date: "Dec 1",
     title: "Ideathon",
     description:
     "An idea pitching session where participants present their project concepts to a jury of experts, competing for a spot in the main hackathon. Only the top 10 teams will advance, gaining the chance to bring their ideas to life in a dynamic, hands-on environment."
   },
   {
-    date: "Dec 4",
+    date: "TBD",
     title: "Participant Orientation",
     description:
       "Final preparation session before the hackathon. Participants will get an overview of the event schedule, rules, and resources available, along with important instructions for the hackathon.",
