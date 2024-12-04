@@ -1,4 +1,4 @@
-import { Theme, Event, FAQ, Links, Info } from "@/types";
+import { Theme, Event, FAQ, Links, Info, Team } from "@/types";
 
 export const title = "Hack the Circle: Khwopa 2024";
 export const caption =
@@ -145,3 +145,146 @@ export const info: Info = {
   email: "hackthecircle@gmail.com", 
   phone: "(+977) 9863476900"
  };
+
+
+
+export const teams: Team[] = [
+  {
+    id: "1",
+    name: "Team HAHA",
+    imageUrl: "Team_HAHA.png",
+    members: [
+      { name: "Ayusha Shrestha" },
+      { name: "Arpita Rimal" },
+      { name: "Sneha Chaulagain" },
+    ],
+    institution: "Khwopa College of Engineering",
+    ideaDescription:
+      "Our web-based platform bridges the gap between Bhaktapur's rich cultural heritage and modern technology by empowering both locals and tourists. Locals can list their unique skills, activities, or products, while tourists and other users can discover, book, and learn from these experiences. Beyond connecting individuals, the platform supports local businesses, promotes cultural preservation, and fosters a sense of community. Join us in celebrating and sharing skills, traditions, and stories through a modern, user-friendly platform!",
+  },
+  {
+    id: "2",
+    name: "Syntax Error",
+    imageUrl: "Syntax_Error.png",
+    members: [
+      { name: "Jeeni Shrestha" },
+      { name: "Jenisha Shrestha" },
+      { name: "Isha Bhattarai" },
+      { name: "Sejal Dahal" },
+    ],
+    institution: "Khwopa College of Engineering",
+    ideaDescription:
+      "Our idea is to develop an immersive AR app that revolutionizes tourism in Bhaktapur by blending technology with culture. The app will provide captivating storytelling experiences through augmented reality, allowing users to see and hear the history of landmarks come alive. It includes search feature for attractions, food, and events, making exploration seamless. An interactive map offers flexibility, while a profile section stores user preferences and past visits. Designed to enhance cultural appreciation and support local businesses, this app promises to modernize tourism while preserving Bhaktapur's rich heritage.",
+  },
+  {
+    id: "3",
+    name: "Rat",
+    imageUrl: "Rat.png",
+    members: [
+      { name: "Sajal Poudel" },
+      { name: "Sachin Koirala" },
+      { name: "Prashamsa Karki" },
+      { name: "Utsav Kayastha" },
+    ],
+    institution: "Khwopa College of Engineering",
+    ideaDescription:
+      "Develop a platform to preserve culture and promote local businesses. Encourage young volunteers to participate and learn about the culture and traditions while earning incentives by doing so. An integrated calendar provides updates on local festivals with push notifications. Additionally, it offers folklore to reflect the main reason behind each festival, keeping participants interested and motivated to preserve it. It also includes map integration to locate local shops, which could be shown as recommendations to visit during festivals to promote local business.",
+  },
+  {
+    id: "4",
+    name: "Xception",
+    imageUrl: "Xception.png",
+    members: [
+      { name: "Trijan Koju" },
+      { name: "Bastav Khatiwada" },
+      { name: "Nirbhaya Sah" },
+    ],
+    institution: "Khwopa Secondary School",
+    ideaDescription:
+      "Detection of parked vehicles in no parking zones. We will detect the vehicles and crop out the number plate to read it. Then, we will compare it to a database and retrieve the contact number associated with the number plate. Initially, we will send an SMS warning with a 10-minute ultimatum to remove the vehicle, and if it remains, further actions will be taken. We will showcase a demo of the system with a custom database and upload videos for detection.",
+  },
+  {
+    id: "5",
+    name: "Clueless Coders",
+    imageUrl: "Clueless_Coders.png",
+    members: [
+      { name: "Supriya Poudel" },
+      { name: "Rohan Singh" },
+      { name: "Anjana Silinchhe Shrestha" },
+      { name: "Niraj Nath" },
+    ],
+    institution: "Khwopa College of Engineering",
+    ideaDescription:
+      "The web application acts as an itinerary provider for tourists to help bridge the information gap, guide them through overwhelming choices, and ensure they experience the best of Bhaktapur based on real-time interests. The itinerary includes services, travel places, and dark or fun myths about Bhaktapur, which can be selected according to preference. Additionally, a blog section is provided for tourists to share their favorite itineraries, which others can use.",
+  },
+  {
+    id: "6",
+    name: "Code Rangers",
+    imageUrl: "Code_Rangers.png",
+    members: [
+      { name: "Rachit Khadka" },
+      { name: "Prasanna Neupane" },
+      { name: "Roshan Bist" },
+      { name: "Pratishthit Raj Baral" },
+    ],
+    institution: "Khwopa College of Engineering",
+    ideaDescription:
+      "A detailed, interactive map featuring businesses of all sizes in Bhaktapur. It includes images of the businesses for easier recognition and has a user-friendly interface accessible to everyone.",
+  },
+  {
+    id: "7",
+    name: "justCodin'",
+    imageUrl: "justCodin'.png",
+    members: [
+      { name: "Chandish Sipai" },
+      { name: "Bishal Gautam" },
+      { name: "Sujan Suwal" },
+    ],
+    institution: "Khwopa College of Engineering",
+    ideaDescription:
+      "We plan to make festivals more accessible through an AR-powered map and timeline-driven calendar. We also want to enhance festival experiences by integrating an emergency button feature in our PWA to facilitate faster access to help. Our goal is to let people enjoy festivals with fewer worries. The platform will also promote local businesses through mall highlights and BLE signals.",
+  },
+  {
+    id: "8",
+    name: "Team Curious",
+    imageUrl: "Team_Curious.png",
+    members: [
+      { name: "Sulav Sapkota" },
+      { name: "Kismat Poudel" },
+      { name: "Deepa Gyawali" },
+      { name: "Aashish Khatri" },
+    ],
+    institution: "Khwopa College of Engineering",
+    ideaDescription:
+      "Our platform bridges the gap between Bhaktapur's rich cultural heritage and modern technology by empowering locals and tourists alike. Locals can list their unique skills, activities, or products, while tourists and other users can discover, book, and learn from these experiences. Beyond connecting individuals, the platform supports local businesses, promotes cultural preservation, and fosters a sense of community. Join us in celebrating and sharing skills, traditions, and stories through a modern, user-friendly platform.",
+  },
+  {
+    id: "9",
+    name: "Team Lakhamari",
+    imageUrl: "Team_Lakhamari.png",
+    members: [
+      { name: "Unik Dhungel" },
+      { name: "Manee Das Shrestha" },
+      { name: "Laxman Twayana" },
+      { name: "Pradipta Joshi" },
+    ],
+    institution: "Khwopa College of Engineering",
+    ideaDescription:
+      "Our web app 'Bhakta-Tour' enhances tourism in Bhaktapur by integrating QR codes at attractions to provide voice-guided cultural and historical insights. Visitors are accompanied by Pasa, an AI chatbot that offers personalized recommendations, answers queries, and creates tailored experiences, blending technology with tradition for an engaging and memorable journey.",
+  },
+  {
+    id: "10",
+    name: "Technovert",
+    imageUrl: "Technovert.png",
+    members: [
+      { name: "Salin Bade" },
+      { name: "Sampada Shrestha" },
+      { name: "Shrijan Sainju" },
+      { name: "Dristi Shrestha" },
+    ],
+    institution: "Khwopa Engineering College",
+    ideaDescription:
+      "We'll be building a dedicated website to preserve the food culture by documenting recipes, tutorial videos, historical essence, nutrients, and timing. While sharing recipes, the platform will suggest shops to buy specific ingredients and restaurants specializing in the dish for those who wish to taste it. The platform aims to digitally monetize through affiliate marketing with promo codes and discounts. It requires calendar and map integration.",
+  },
+];
+
