@@ -60,7 +60,7 @@ export const events: Event[] = [
     "An idea pitching session where participants present their project concepts to a jury of experts, competing for a spot in the main hackathon. Only the top 10 teams will advance, gaining the chance to bring their ideas to life in a dynamic, hands-on environment."
   },
   {
-    date: "TBD",
+    date: "Dec 4",
     title: "Participant Orientation",
     description:
       "Final preparation session before the hackathon. Participants will get an overview of the event schedule, rules, and resources available, along with important instructions for the hackathon.",
@@ -136,7 +136,7 @@ export const faqs: FAQ[] = [
 export const links: Links = {
   facebook: "https://www.facebook.com/hackthecircle",
   instagram: "https://www.instagram.com/hackthecircle",
-discord: "https://discord.gg/TCWhDg7Rby",
+  discord: "https://discord.gg/TCWhDg7Rby",
 };
 
 export const info: Info = {
