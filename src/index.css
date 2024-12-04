@@ -9,6 +9,10 @@
   background-position: center;
 }
 
+html{
+  background-color: #dddfe9;
+}
+
 :root {
   --background: #dddfe9;
   --foreground: 210 8% 5%;

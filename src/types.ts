@@ -29,3 +29,16 @@ export interface Info {
   email: string;
   phone: string; 
 }
+
+interface TeamMember {
+  name: string;
+}
+
+export interface Team {
+  id: string;
+  name: string;
+  imageUrl: string;
+  members: TeamMember[];
+  institution: string;
+  ideaDescription: string;
+}
