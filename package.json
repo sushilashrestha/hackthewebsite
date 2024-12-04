@@ -19,6 +19,7 @@
     "exceljs": "^4.4.0",
     "framer-motion": "^11.11.1",
     "lucide-react": "^0.394.0",
+    "r": "^0.0.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-fast-marquee": "^1.6.5",

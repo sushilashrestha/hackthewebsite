@@ -87,15 +87,14 @@ export default function HeroSection({
         >
           {caption}
         </motion.p>
-        <Marquee gradient={false} speed={100}>
-        
+        <Marquee gradient={false} speed={100} className="w-full"> {/* Ensure Marquee stretches full width */}
           {teams.map((team) => (
             <TeamCard key={team.id} team={team} />
           ))}
         </Marquee>
       </div>
       <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 z-20 flex flex-col justify-center items-center">
-      <ScrollDownButton />
+        <ScrollDownButton />
       </div>
     </section>
   );
