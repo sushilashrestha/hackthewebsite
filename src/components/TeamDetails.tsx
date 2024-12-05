@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
-import { teams } from '@/data';
+import { teams } from '../data';
 
 export default function TeamPage() {
   const { id } = useParams();
