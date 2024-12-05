@@ -3,7 +3,7 @@ import { Theme, Event, FAQ, Links, Info, Team } from "@/types";
 export const title = "Hack the Circle: Khwopa 2024";
 export const caption =
   "Join us for 32 hours of innovation, collaboration, and code!";
-  export const targetDate = "2024-12-06T00:00:00";
+  export const targetDate = "2024-12-06T09:00:00";
 export const registrationLink = "https://tally.so/r/nrdZLo";
 export const learnMoreLink = "https://hackthecircle.super.site";
 
