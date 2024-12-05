@@ -139,7 +139,7 @@ export default function HeroSection({
     minutes: 0,
     seconds: 0,
   });
-  // Add the new state variable
+
   const [isTimeOut, setIsTimeOut] = useState(false);
 
   useEffect(() => {
@@ -148,6 +148,7 @@ export default function HeroSection({
     const interval = setInterval(() => {
       const now = new Date().getTime();
       const difference = targetDateTime - now;
+
 
       if (difference <= 0) {
         setIsTimeOut(true);
@@ -163,6 +164,7 @@ export default function HeroSection({
           seconds: Math.floor((difference % (1000 * 60)) / 1000),
         });
       }
+
     }, 1000);
 
     return () => clearInterval(interval);
@@ -187,7 +189,7 @@ export default function HeroSection({
         >
           {caption}
         </motion.p>
-        {/* Conditionally render components based on isTimeOut */}
+
         {isTimeOut ? (
           <EventStarted />
         ) : (
@@ -197,9 +199,10 @@ export default function HeroSection({
             learnMoreLink={learnMoreLink}
           />
         )}
+
       </div>
       <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 z-20 flex flex-col justify-center items-center">
-        <ScrollDownButton />
+      <ScrollDownButton />
       </div>
     </section>
   );
