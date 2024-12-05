@@ -18,7 +18,7 @@ export default function TeamCard({ team }: TeamCardProps) {
         />
       </div>
       <div className="p-3">
-        <h2 className="text-lg font-semibold text-gray-800 group-hover:text-gray-600 mb-1">
+        <h2 className="text-lg font-semibold text-gray-800  mb-1">
           {team.name}
         </h2>
         <p className="text-sm text-gray-600">{team.institution}</p>
