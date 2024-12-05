@@ -22,7 +22,7 @@ const TimelineEvent = ({ event }: { event: Event }) => {
 const Timeline = ({ events }: { events: Event[] }) => {
   return (
     <Section title="Event Timeline">
-      <div className="space-y-4">
+      <div className="space-y-4 max-w-4xl mx-auto">
         {events.map((event, index) => (
           <TimelineEvent key={index} event={event} />
         ))}

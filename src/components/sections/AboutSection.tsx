@@ -32,8 +32,8 @@ export default function AboutSection() {
   ];
 
   return (
-    <Section title="About Us">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <Section title="About Us" >
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
         {sections.map((section, index) => (
           <motion.div
             key={index}

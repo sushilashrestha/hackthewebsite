@@ -139,7 +139,7 @@ export default function HeroSection({
     minutes: 0,
     seconds: 0,
   });
-
+  // Add the new state variable
   const [isTimeOut, setIsTimeOut] = useState(false);
 
   useEffect(() => {
@@ -149,22 +149,20 @@ export default function HeroSection({
       const now = new Date().getTime();
       const difference = targetDateTime - now;
 
+      setTimeLeft({
+        days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+        hours: Math.floor(
+          (difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+        ),
+        minutes: Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60)),
+        seconds: Math.floor((difference % (1000 * 60)) / 1000),
+      });
 
+      // Check if the timer has run out
       if (difference <= 0) {
         setIsTimeOut(true);
-        setTimeLeft({ days: 0, hours: 0, minutes: 0, seconds: 0 });
         clearInterval(interval);
-      } else {
-        setTimeLeft({
-          days: Math.floor(difference / (1000 * 60 * 60 * 24)),
-          hours: Math.floor(
-            (difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-          ),
-          minutes: Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60)),
-          seconds: Math.floor((difference % (1000 * 60)) / 1000),
-        });
       }
-
     }, 1000);
 
     return () => clearInterval(interval);
@@ -189,7 +187,7 @@ export default function HeroSection({
         >
           {caption}
         </motion.p>
-
+        {/* Conditionally render components based on isTimeOut */}
         {isTimeOut ? (
           <EventStarted />
         ) : (
@@ -199,10 +197,9 @@ export default function HeroSection({
             learnMoreLink={learnMoreLink}
           />
         )}
-
       </div>
       <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 z-20 flex flex-col justify-center items-center">
-      <ScrollDownButton />
+        <ScrollDownButton />
       </div>
     </section>
   );
