@@ -70,7 +70,7 @@ export default function HeroSection({
 
   return (
     <section className="relative flex flex-col items-center justify-center min-h-screen text-center overflow-hidden">
-      <div className="relative z-10 px-4 py-16 sm:px-6 lg:px-8 w-full max-w-7xl mx-auto">
+      <div className="relative z-10 px-4 py-8 sm:px-6 lg:px-8 w-full max-w-7xl mx-auto">
         <motion.h2
           className="text-4xl sm:text-6xl text-primary font-extrabold mb-4 drop-shadow-lg"
           initial={{ y: -50, opacity: 0 }}
@@ -80,19 +80,25 @@ export default function HeroSection({
           <span className="text-secondary"> {firstPart}</span> :{secondPart}
         </motion.h2>
         <motion.p
-          className="text-xl sm:text-2xl mb-8 text-primary font-bold"
+          className="text-xl sm:text-2xl mb-2 text-primary font-bold"
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
           {caption}
         </motion.p>
-        <Marquee gradient={false} speed={100} className="w-full"> {/* Ensure Marquee stretches full width */}
-          {teams.map((team) => (
-            <TeamCard key={team.id} team={team} />
-          ))}
-        </Marquee>
       </div>
+      <h3 className="text-xl sm:text-2xl text-primary font-extrabold mb-4 drop-shadow-lg">Meet Our Participants</h3>
+      <Marquee
+        gradient={true}
+        gradientColor={'#dddfe9'}
+        speed={100}
+        className="w-screen"
+      >
+        {teams.map((team) => (
+          <TeamCard key={team.id} team={team} />
+        ))}
+      </Marquee>
       <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 z-20 flex flex-col justify-center items-center">
         <ScrollDownButton />
       </div>
