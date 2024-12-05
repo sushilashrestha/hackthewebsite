@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button"
 import { ExternalLink, Home } from 'lucide-react'
 import { useParams } from "react-router-dom";
 import {teams} from "@/data"
-import { ArrowLeft } from "lucide-react";
 
 
 export default function TeamProfile() {
