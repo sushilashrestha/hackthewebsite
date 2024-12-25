@@ -12,7 +12,7 @@ export default function Layout({ children }: { children: ReactNode }) {
           //   opacity: 0.2,
           // }}
         />
-        <div className="relative z-10 max-w-5xl mx-auto">{children}</div>
+        <div className="relative z-10 ">{children}</div>
       </main>
     </div>
   );
